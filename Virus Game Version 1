@@ -12,7 +12,7 @@ def details():
     print(cases)
     print(country)
     if cases > 50:
-        print("Country is in Lockdown")
+        print( country + "is in Lockdown")
     else:
         print("Country is Open")
 
